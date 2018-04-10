@@ -37,9 +37,6 @@ namespace basicCalculator
             Console.WriteLine("Enter Operator:");
             strOp = Convert.ToString(Console.ReadLine());
 
-
-
-
             string[] constOperators = { "+", "-", "*", "/" };
             if (constOperators.Contains(strOp))
             {
